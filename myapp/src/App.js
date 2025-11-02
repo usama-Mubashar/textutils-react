@@ -43,7 +43,7 @@ function App() {
   }
   return (
     <>
-    <Router>
+    <Router basename="/textutils-react">
       <Navbar title="TextUtils" abouttext="About US" mode={mode} toggle={togglemode}/>
      <Alert alert={alert}/>
     
