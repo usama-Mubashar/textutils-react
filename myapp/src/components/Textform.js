@@ -58,11 +58,11 @@
         <label htmlFor="myBox" className="form-label"><h1>{prop.heading}</h1></label>
         <textarea className="form-control textform" id="myBox" rows="8" value={text}  onChange={handleOnChange} style={mystyle}></textarea>
         </div>
-        <button className="btn btn-primary" onClick={UpperCase} 
+        <button className="btn btn-primary mx-2 my-2" onClick={UpperCase} disabled={text.length===0}
         >Convert to UpperCase</button>
-        <button className="btn btn-primary mx-2" onClick={LowerCase} 
+        <button className="btn btn-primary mx-2 my-2" onClick={LowerCase} disabled={text.length===0}
         >Convert to LowerCase</button>
-        <button className="btn btn-primary mx-2" onClick={Cleartext} 
+        <button className="btn btn-primary mx-2 my-2" onClick={Cleartext} disabled={text.length===0}
         >Clear</button>
         
         </div>
