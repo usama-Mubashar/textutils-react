@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.8f7f30e7.css","mappings":"AAAA,SACE,qBACF,CCFA,gBACI,eACJ","sources":["index.css","App.css"],"sourcesContent":["textform{\r\n  background-color: yellow;\r\n}\r\n.textform:hover{\r\n  cursor:red,text;\r\n}",".textform:hover{\r\n    cursor:red,text;\r\n}"],"names":[],"sourceRoot":""}
